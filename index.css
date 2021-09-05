@@ -1,0 +1,23 @@
+body{
+    background: #272727;
+    color: gold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    background: #272727;
+    color: gold;
+    border: 1px solid gold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: none;
+    transition: 0.5s;
+} 
+
+textarea:focus{
+    box-shadow: 0 0 10px rgb(223, 215, 173);
+}
